@@ -1,0 +1,7 @@
+alf = ('a'..'z').to_a
+glasn = ["a", "e", "i", "o", "u", "y"]
+hh = {}
+alf.each.with_index do |bukvi, i|
+    hh[bukvi] = i + 1 if glasn.include?(bukvi)
+  end
+puts hh
